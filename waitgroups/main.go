@@ -9,7 +9,7 @@ import (
 
 var wg sync.WaitGroup //in go routiens the waint groups gives more flexiblity to programmer 
 //it give high performance to the application because of concurrency
-//ther is wait ,done and add pointer are used to make work the waitgroup 
+//ther is wait ,done and add pointer are used to make work the waitgroup  is c
 
 func main() {
 	start:=time.Now().UnixMilli()
